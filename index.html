@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg1">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-white"></span>
+                </button>
+                <a class="navbar-brand display-2 fw-bold text-white px-3">BUDDLE FOX</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-white"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Browser</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">User Currency</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex width" role="search">
+                        <input class="form-control me-2 bg-transparent border rounded-pill" type="search" placeholder=" Search" aria-label="Search">
+                    </form>
+                    <div class="px-2">
+                        <button class="btn submit-game text-white px-2 rounded-pill">Submit Your Game</button>
+                        <button class="btn ad text-white rounded-pill">Post Your Ad</button>
+                    </div>
+                    <div>
+                        <span class="fw-bold h6 text-white" href="">Log In <i class="bi bi-box-arrow-in-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Sidebar -->
+        <nav id="sidebarMenu" class="collapse overflow-auto d-lg-block sidebar bg1 d-flex">
+            <div class="">
+                <div class="position-sticky">
+                    <div class="col-12 section side-bar">
+                        <div class="category side-bar-item">
+                            <div class="title">categories</div>
+                            <div class="items">
+                                <div class="item item1">
+                                    <img src="./assets/trophy.png" alt="popular" class="popular-icon item-icon" />
+                                    <div class="content">Popular</div>
+                                </div>
+                                <div class="item item2">
+                                    <img src="./assets/all.png" alt="all" class="all-icon item-icon" />
+                                    <div class="content">All</div>
+                                </div>
+                                <div class="item item3">
+                                    <img src="./assets/new.png" alt="new" class="new-icon item-icon" />
+                                    <div class="content">new</div>
+                                </div>
+                                <div class="item item4">
+                                    <img src="./assets/adventure.png" alt="adventure" class="adventure-icon item-icon" />
+                                    <div class="content">adventure</div>
+                                </div>
+                                <div class="item item5">
+                                    <img src="./assets/multiplayer.png" alt="multiplayer" class="multiplayer-icon item-icon" />
+                                    <div class="content">multiplayer</div>
+                                </div>
+                                <div class="item item6">
+                                    <img src="./assets/action.png" alt="action" class="action-icon item-icon" />
+                                    <div class="content">action</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 section side-bar">
+                        <div class="browse side-bar-item">
+                            <div class="title">
+                                Browse all categories <i class="bi bi-arrow-down"></i>
+                            </div>
+                        </div>
+                        <div class="advertistment side-bar-item">
+                            <div class="ad-title">advertistment</div>
+                            <img src="./assets/advertistment.jpg" alt="ad" class="ad-icon" />
+                        </div>
+                        <div class="social-media side-bar-item">
+                            <div class="facebook social">
+                                <a href="#">
+                                    <img src="./assets/facebook.png" alt="facebook" class="facebook icon" />
+                                </a>
+                            </div>
+                            <div class="instagram social">
+                                <a href="#">
+                                    <img src="./assets/instagram.png" alt="instagram" class="instagram icon" />
+                                </a>
+                            </div>
+                            <div class="twitter social">
+                                <a href="#">
+                                    <img src="./assets/twitter.png" alt="twitter" class="twitter icon" />
+                                </a>
+                            </div>
+                            <div class="linkedin social">
+                                <a href="#">
+                                    <img src="./assets/linkedin.png" alt="linkedin" class="linkedin icon" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="news-feed side-bar-item">
+                            <div class="title">From the news Feed</div>
+                            <div class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit temporibus eius ipsum vero
+                                quibusdam laborum libero at mollitia dolores minima.</div>
+                            <div class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit temporibus eius ipsum vero
+                                quibusdam laborum libero at mollitia dolores minima.</div>
+                        </div>
+                        <div class="advertistment side-bar-item">
+                            <div class="ad-title">advertistment</div>
+                            <img src="./assets/advertistment.jpg" alt="ad" class="ad-icon" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Sidebar -->
+    </header>
+    <main class="bg-transparent amain " style="margin-top: 58px;">
+        <div class="col-12">
+            <div class="bannar">
+                <img src="./assets/cartoon-bannar.jpg" alt="cartoon bannar" />
+                <div class="background"></div>
+                <div class="content">
+                    <div class="heading">
+                        Have a blast with<br />
+                        <span>Bubble FOX</span>
+                    </div>
+                    <div class="para">3 garateed winners will be selected to each receive a $2.50 gift card.</div>
+                    <div class="btn mt-2">Collect today</div>
+                </div>
+            </div>
+            <div class="main-content col-12">
+                <div class="covers">
+                    <div class="cover cover1 col-12">
+                        <img src="./assets/cover2.jpg" alt="cover 1" class="cover-img cover1-img" />
+                    </div>
+                    <div class="cover cover2 col-12">
+                        <img src="./assets/cover1.jpg" alt="cover 2" class="cover-img cover2-img" />
+                        <div class="background"></div>
+                        <div class="content">
+                            <div class="heading">Game of the Day</div>
+                            <div class="para">Relax and pop colorful bubbles in this classic game</div>
+                            <div class="btn">Play now</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex top-games">
+                    <div class="title">Your Top games</div>
+                    <div class="games row gap-1">
+                        <div class="col-1 game games-1">
+                            <img src="./assets/games-1.jpg" alt="games-1" class="game-cover" />
+                            <div class="background"></div>
+                            <div class="price">Try now</div>
+                        </div>
+                        <div class="col-1 game games-2">
+                            <img src="./assets/games-2.jpg" alt="games-2" class="game-cover" />
+                            <div class="background"></div>
+                            <div class="price">Try now</div>
+                        </div>
+                        <div class="col-1 game games-3">
+                            <img src="./assets/games-3.jpg" alt="games-3" class="game-cover" />
+                            <div class="background"></div>
+                            <div class="price">Try now</div>
+                        </div>
+                        <div class="col-1 game games-4">
+                            <img src="./assets/games-4.jpg" alt="games-4" class="game-cover" />
+                            <div class="background"></div>
+                            <div class="price">Try now</div>
+                        </div>
+                        <div class="col-1 game games-5">
+                            <img src="./assets/games-5.jpg" alt="games-5" class="game-cover" />
+                            <div class="background"></div>
+                            <div class="price">Try now</div>
+                        </div>
+                        <div class="col-1 game games-6">
+                            <img src="./assets/games-6.jpg" alt="games-6" class="game-cover" />
+                            <div class="background"></div>
+                            <div class="price">Try now</div>
+                        </div>
+                        <div class="col-1 game games-7">
+                            <img src="./assets/games-7.jpg" alt="games-7" class="game-cover" />
+                            <div class="background"></div>
+                            <div class="price">Try now</div>
+                        </div>
+                        <div class="col-1 game games-8">
+                            <img src="./assets/games-8.jpg" alt="games-8" class="game-cover" />
+                            <div class="background"></div>
+                            <div class="price">Try now</div>
+                        </div>
+                        <div class="col-1 game games-9">
+                            <img src="./assets/games-9.jpg" alt="games-9" class="game-cover" />
+                            <div class="background"></div>
+                            <div class="price">Try now</div>
+                        </div>
+                        <div class="col-1 game games-11">
+                            <img src="./assets/games-11.jpg" alt="games-11" class="game-cover" />
+                            <div class="background"></div>
+                            <div class="price">Try now</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="advertistment-row">
+                    <div class="advertistment side-bar-item">
+                        <div class="ad-title">advertistment</div>
+                        <img src="./assets/advertistment.jpg" alt="ad" class="ad-icon" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
